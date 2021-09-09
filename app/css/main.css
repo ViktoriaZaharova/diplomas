@@ -414,7 +414,7 @@ header {
   z-index: 1;
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  padding: 38px 90px 44px 63px;
+  padding: 38px 50px 44px;
   color: #fff;
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 20px;
@@ -459,7 +459,8 @@ header {
     width: 100%;
     height: 100%; }
   .diploma-box h4 {
-    margin: 0 auto 23px; }
+    margin: 0 auto 23px;
+    font-family: "Montserrat Alternates", sans-serif; }
   .diploma-box .btn {
     max-width: 250px; }
   .diploma-box:hover:before {
@@ -495,6 +496,9 @@ header {
     height: 8px;
     background: #03FFB3;
     margin: 0 12px 0 0; }
+
+.under-the-order:before {
+  background: #FF6D03; }
 
 .price {
   margin: 40px auto 37px; }
@@ -536,22 +540,22 @@ header {
 
 .diploma2:after {
   top: -113px;
-  right: 0;
+  right: -43px;
   background: url("../img/decor5.svg") no-repeat center;
     background-size: 100%;
-  width: 232px;
-  height: 232px; }
+  width: 279px;
+  height: 231px; }
 
 .decor2 {
-  left: 0;
+  left: -70px;
   top: 576px; }
 
 .decor3 {
   bottom: 430px;
-  right: 0; }
+  right: -37px; }
 
 .decor4 {
-  right: 0;
+  right: -82px;
   bottom: -50px; }
 
 .diploma3:before, .diploma3:after {
@@ -626,18 +630,9 @@ header {
 
 .box-text-border {
   position: relative;
-  z-index: 1; }
-  .box-text-border:before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: -14px;
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
-    height: calc(100% - 10px);
-    width: calc(100% + 72px);
-    border: 1px dashed #000000;
-    z-index: -1; }
+  z-index: 1;
+  border: 1px dashed #000000;
+  padding: 24px 16px 24px 34px; }
 
 .list-dots {
   list-style: disc;
@@ -659,6 +654,164 @@ header {
     background-size: 100%;
   width: 134px;
   height: 171px; }
+
+.diploma8:before, .diploma8:after {
+  content: '';
+  position: absolute; }
+
+.diploma8:after {
+  right: -59px;
+  top: 452px;
+  background: url("../img/decor8.svg") no-repeat center;
+    background-size: 100%;
+  width: 255px;
+  height: 248px; }
+
+.diploma8:before {
+  left: -133px;
+  top: 762px;
+  width: 266px;
+  height: 249px;
+  background: url("../img/decor6.svg") no-repeat center;
+    background-size: 100%; }
+
+.diploma9:before, .diploma9:after {
+  content: '';
+  position: absolute; }
+
+.diploma9:before {
+  top: 513px;
+  right: -32px;
+  background: url("../img/decor14.svg") no-repeat center;
+    background-size: 100%;
+  width: 171px;
+  height: 167px; }
+
+.diploma9:after {
+  bottom: -20px;
+  right: -106px;
+  background: url("../img/decor5.svg") no-repeat center;
+    background-size: 100%;
+  width: 279px;
+  height: 231px; }
+
+.diploma10:before {
+  content: '';
+  position: absolute;
+  background: url("../img/decor14.svg") no-repeat center;
+    background-size: 100%;
+  width: 171px;
+  height: 167px;
+  top: 65px;
+  left: -18px; }
+
+.diploma11 {
+  margin: 104px 0 0; }
+  .diploma11:after, .diploma11:before {
+    top: -92px; }
+
+.decor7 {
+  top: 33%;
+  left: -29px; }
+
+.decor8 {
+  left: -18px;
+  top: 48%; }
+
+.decor9 {
+  right: -95px;
+  top: 38%; }
+
+.decor10 {
+  bottom: 17%;
+  right: -131px; }
+
+.decor11 {
+  left: -96px;
+  top: 48%; }
+
+.decor12 {
+  left: -39px;
+  bottom: 40%; }
+
+.decor13 {
+  right: -37px;
+  top: 40%; }
+
+.decor14 {
+  right: -24px;
+  bottom: 45%; }
+
+.diploma13:after, .diploma13:before {
+  content: '';
+  position: absolute; }
+
+.diploma13:after {
+  background: url("../img/decor8.svg") no-repeat center;
+    background-size: 100%;
+  width: 255px;
+  height: 248px;
+  right: -59px;
+  top: -50px; }
+
+.diploma13:before {
+  top: -42px;
+  left: -84px;
+  background: url("../img/decor5.svg") no-repeat center;
+    background-size: 100%;
+  width: 279px;
+  height: 231px; }
+
+.diploma15:after {
+  content: '';
+  position: absolute;
+  top: 108px;
+  right: -80px;
+  background: url("../img/decor7.svg") no-repeat center;
+    background-size: 100%;
+  width: 192px;
+  height: 192px; }
+
+.diploma16 {
+  margin: 30px 0 0; }
+  .diploma16:after, .diploma16:before {
+    content: '';
+    position: absolute;
+    width: 327px;
+    height: 187px;
+    background: url("../img/decor19.svg") no-repeat center;
+      background-size: 100%; }
+  .diploma16:before {
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+    left: -117px;
+    top: -20px; }
+  .diploma16:after {
+    right: -80px;
+    top: 50%; }
+
+.img-title {
+  margin: 0 36px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
