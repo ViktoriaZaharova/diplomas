@@ -149,7 +149,7 @@ h4
   font-size: 26px
 
 strong
-  display: inline-block
+  display: inline
   font-weight: bold
 
 .title-line
@@ -390,7 +390,7 @@ header
   border-radius: 15px
   z-index: 1
   transition: .3s ease
-  padding: 38px 50px 44px
+  padding: 38px 15px 44px
   color: #fff
   font-family: $title-font
   font-size: 20px
@@ -439,9 +439,8 @@ header
   font-weight: 500
   display: flex
   align-items: center
-
   text-align: left
-  margin: 0 auto auto 0
+  margin: 0 auto auto 50px
   &:before
     content: ''
     display: flex
@@ -587,6 +586,9 @@ header
   z-index: 1
   border: 1px dashed #000000
   padding: 24px 16px 24px 34px
+  margin: 0 0 42px
+  p
+    margin: 0
   //&:before
   //  content: ''
   //  position: absolute
@@ -736,6 +738,7 @@ header
       size: 100%
     width: 192px
     height: 192px
+    z-index: -1
 
 .diploma16
   margin: 30px 0 0
@@ -746,6 +749,7 @@ header
     height: 187px
     background: url("../img/decor19.svg") no-repeat center
       size: 100%
+    z-index: -1
   &:before
     transform: matrix(-1, 0, 0, 1, 0, 0)
     left: -117px
@@ -765,6 +769,208 @@ header
   display: flex
   align-items: center
   justify-content: center
+  margin: 0 0 50px
+
+.diploma17
+  margin: 104px 0 0
+  &:before, &:after
+    content: ''
+    position: absolute
+    z-index: -1
+  &:before
+    background: url('../img/decor4.svg') no-repeat center
+      size: 100%
+    width: 174px
+    height: 341px
+    top: -260px
+  &:after
+    right: 0
+    top: 250px
+    background: url("../img/decor3.svg") no-repeat center
+      size: 100%
+    width: 174px
+    height: 341px
+
+.decor15
+  bottom: -20px
+  right: 0
+
+.diploma18
+  margin: 30px 0 0
+  &:before, &:after
+    content: ''
+    z-index: -1
+    position: absolute
+  &:before
+    background: url("../img/decor20.svg") no-repeat center
+      size: 100%
+    width: 243px
+    height: 266px
+    left: -116px
+    top: 350px
+  &:after
+    background: url("../img/decor8.svg") no-repeat center
+      size: 100%
+    width: 255px
+    height: 248px
+    top: 250px
+    right: -47px
+
+//reviews
+.reviews
+  &:before, &:after
+    top: -192px
+  h2
+    margin: 0 auto 82px
+
+.btn-reviews
+  width: 100%
+  padding: 15px 0
+  margin: 30px auto 0
+  background: rgba(67, 161, 246, 0.13)
+  .btn
+    max-width: 361px
+    margin: 0 auto
+
+.question
+  margin: 62px 0 0
+  &:before
+    content: ''
+    position: absolute
+    background: url("../img/decor19.svg") no-repeat center
+      size: 100%
+    right: -132px
+    bottom: -90px
+    width: 327px
+    height: 187px
+    transform: rotate(30deg)
+    z-index: -1
+
+
+.specialists
+  padding: 34px 0 211px
+  &:before, &:after
+    content: ''
+    position: absolute
+    z-index: -1
+  &:before
+    background: url('../img/decor4.svg') no-repeat center
+      size: 100%
+    width: 174px
+    height: 341px
+    top: -30px
+  &:after
+    right: 0
+    top: 130px
+    background: url("../img/decor3.svg") no-repeat center
+      size: 100%
+    width: 174px
+    height: 341px
+
+  ul
+    max-width: none
+
+.decor16
+  transform: translate(-50%,0)
+  left: 50%
+  bottom: -370px
+  width: 100%
+
+//footer
+footer
+  position: relative
+  background: #EBEBEB
+  z-index: 2
+  &:before
+    content: ''
+    position: absolute
+    top: 66px
+    left: 0
+    background: url("../img/decor21.svg") no-repeat center
+      size: 100%
+    width: 109px
+    height: 218px
+    z-index: 2
+  .phone
+    color: #4D4D4D
+    margin: 0 0 25px
+    font-size: 25px
+    font-weight: bold
+
+.address
+  max-width: 260px
+  color: #4D4D4D
+  font-size: 25px
+  font-weight: bold
+  padding: 0 0 0 45px
+
+.payment-box
+  margin: 0 0 0 200px
+  h3
+    font-size: 25px
+    font-weight: bold
+    color: #4D4D4D
+    margin: 0 0 25px
+    text-align: left
+
+.list-pay
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  li
+    background: #C4C4C4
+    width: 90px
+    height: 56px
+    margin: 0 12px 0 0
+    &:last-child
+      margin: 0
+
+.map
+  width: 585px
+  height: 522px
+  margin: 0 -210px 0 0
+  background: #fff
+  padding: 0 0 0 20px
+  iframe
+    width: 100%
+    height: 100%
+
+.footer-wrapper
+  width: calc(100% - 388px)
+
+.footer-top
+  width: 100%
+  position: relative
+  padding: 44px 106px 44px 0
+  z-index: 1
+  display: flex
+  align-items: center
+  justify-content: space-between
+  &:before
+    content: ''
+    position: absolute
+    right: 0
+    top: 0
+    background: #F8F8F8
+    height: 100%
+    width: 2500px
+    z-index: -1
+
+.footer-bottom
+  padding: 64px 0 0
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+
+.copyright
+  width: 100%
+  padding: 28px 0 40px
+  color: #868585
+  font-size: 20px
+  border-top: 1px solid #CECECE
+  margin: 88px 0 0
+
+
 
 @import "media"
 // Всегда в конце
